@@ -4,7 +4,8 @@
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
     font-family: "IBM Plex mono", sans-serif;
     font-size: 18px;
-    background-color: var(--page-backgrund-color);
+    background: var(--cover-image-url) center;
+    background-attachment: fixed;
 }
 
 .main-title {
@@ -31,8 +32,6 @@
     display: flex;
     flex-direction: column;
     padding: 10px;
-    background: var(--cover-image-url) no-repeat center;
-    background-size: cover;
 }
 
 .header::before,

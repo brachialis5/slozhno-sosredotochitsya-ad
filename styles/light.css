@@ -19,6 +19,7 @@
     --theme-button-color: var(--text-dark);
     --theme-button-color-hover: rgba(50, 49, 45, 0.4);
     --section-title-color: var(--text-dark);
+    --page-backgrund-color: #FFF1F7;
 }
 
 .theme-light .page {

@@ -230,7 +230,7 @@
     .header__subtitle {
         align-self: end;
         max-width: 50%;
-        margin: 160px 0 182px;
+        margin: 160px 0;
     }
 
     .section {
